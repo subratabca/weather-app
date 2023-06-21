@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather App By Subrata</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  
+<div class="container mt-5">
+  <div class="form-inline">
+    <input type="text" class="form-control mb-2 mr-sm-2 input_text" placeholder="Enter City Name">   
+    <button type="submit" class="btn btn-primary mb-2 submit" value="Submit">Submit</button>
+  </div>
+
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>City</th>
+        <th>Temparature</th>
+        <th>Humidity</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p class="name"></p></td>
+        <td><p><span class="temp">00.00</span>&deg;c</p></td>
+        <td><p class="humi"></p></td>
+        <td><p class="desc"></p></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
